@@ -1,0 +1,7 @@
+# read in data from a CSV file
+dataframe <- read.csv("C:/Priya/Module 3/iris.csv")
+# print the dataframe
+print(dataframe)
+
+pe.len <- max(dataframe$petal.length)
+print(pe.len)

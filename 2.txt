@@ -1,0 +1,9 @@
+df <- data.frame(
+Training = c("Strength", "Stamina", "other"),
+Pulse = c(100, 150, 120),
+Duration = c(60, 30, 45)
+)
+# print the dataframe
+print(df)
+
+summary(df)

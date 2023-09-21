@@ -1,0 +1,9 @@
+df <- data.frame(
+Training = c("Strength", "Stamina", "other"),
+Pulse = c(100, 150, 120),
+Duration = c(60, 30, 45)
+)
+# Add a new column
+New_col_DF <- cbind(df, steps= c(6000,11000,9000))
+# Print the new row
+New_col_DF

@@ -1,0 +1,4 @@
+# read in the text file
+data <- read.delim("C:/Priya/Module 3/text.txt")
+# print the dataframe
+print(data)
